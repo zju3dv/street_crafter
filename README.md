@@ -108,7 +108,7 @@ python render.py --config {config_path} mode novel_view
 
 ### Training 
 First download the model weights of Vista from this [link](https://drive.google.com/file/d/1bCM7XLDquRqnnpauQAK5j1jP-n0y1ama/view) to `video_diffusion/ckpts` directory. 
-We finetune the video diffuson model based on the codebase of [Vista](https://opendrivelab.com/Vista/). Please refer to their official [Documents](video_diffusion/docs/) for environment setup and training details.
+We finetune the video diffusion model based on the codebase of [Vista](https://opendrivelab.com/Vista/). Please refer to their official [Documents](video_diffusion/docs/) for environment setup and training details.
 ```
 # run the command under video diffusion directory
 sh training.sh
